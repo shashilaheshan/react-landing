@@ -9,6 +9,7 @@ function App() {
         <nav className="nav">
           <div className="logo">
             <h2>YourBrand</h2>
+            <small className="api-url">API: {process.env.REACT_APP_API_URL}</small>
           </div>
           <ul className="nav-links">
             <li><a href="#home">Home</a></li>
